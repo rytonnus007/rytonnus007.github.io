@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "BazarMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/bazarmedium.eot?#iefix") format("embedded-opentype"), url("../fonts/bazarmedium.woff") format("woff"), url("../fonts/bazarmedium.ttf") format("truetype"), url("../fonts/bazarmedium.svg#BazarMedium") format("svg");
+}
+@media not all {
+@font-face {
+    font-family: "BazarMedium";
+    src: url("../fonts/bazarmedium.svg#BazarMedium") format("svg");
+}
+}
+.resume-sec-title {
+ 	font-family: "BazarMedium";
+ 	text-transform: uppercase;
+ 	font-weight: normal;
+}

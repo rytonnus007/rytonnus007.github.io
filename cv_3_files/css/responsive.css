@@ -1,0 +1,435 @@
+/*======================================================================================================================================================
+ * RESPONSIVE TABLET START
+* ===================================================================================================================================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/* start GRID */
+	.big_container {
+		width:470px;
+		margin:15px auto;
+	}
+	.container_940 {
+		width:450px;
+		margin:0 auto;
+	}
+	.grid_940 {
+		width:450px;
+		float:left;
+	}
+	.grid_300 {
+		width:450px;
+		float:left;
+	}
+	.grid_640 {
+		width:450px;
+		float:left;
+	}
+	.grid_240 {
+		width:450px;
+		float:left;
+	}
+	.grid_700 {
+		width:450px;
+		float:left;
+	}
+	.grid_470 {
+		width:450px;
+		float:left;
+	}
+	/* ends GRID */
+	
+	/* start header */
+	#header:after {
+		width:450px;
+		border-bottom:0px solid;
+	}
+	#header #logo {
+		text-align:center;
+		margin-bottom:30px;
+	}
+	
+	#ul_menu li,#ul_menu li a {
+		width:223px;
+		margin-bottom:4px;
+	}
+	#ul_menu li a:before{
+		width:223px;
+	}
+	#ul_menu li a:after {
+		width:223px;
+	}
+	#ul_menu li a.active:after {
+		background-position:center 18px;
+	}
+	#ul_menu li a.icon_resume.active:after,
+	#ul_menu li a.icon_blog.active:after,
+	#ul_menu li a.icon_portfolio.active:after,
+	#ul_menu li a.icon_contact.active:after {
+		background-color:transparent;
+	}
+	#ul_menu li:nth-child(odd){
+		margin-right:0px;
+	}
+	#ul_menu li a.active {
+		height:144px;
+	}
+	.border_header {
+		height:15px;
+	}
+	.border_header_mb {
+		height:0px;
+	}
+	/* end header */
+	
+	/* start footer */
+	#footer .copyright {
+		text-align:center;
+		margin-bottom:10px;
+	}
+	#footer .social_div  .ul_social{
+		margin:0 auto;
+		width:300px;
+	}
+	/* end footer */
+	
+	/* start home */
+	.div_210 {
+		width:450px;
+	}
+	.div_730 {
+		width:450px;
+	}
+	#id_home #photo_slider_div {
+		margin:0 auto;
+		margin-bottom:20px;
+	}
+	.one_third {
+		width:450px;
+		margin-right:0px;
+	}
+	.one_third_last {
+		width:450px;
+	}
+	.ul_info .span {
+		width:290px;
+	}
+	#id_home #photo_slider_div {
+		background:none;
+		padding-right:0px;
+	}
+	/* end home */
+	
+	/* start blog */
+	.vertical_bg{
+		background: none;
+	}
+	#single_post{
+		width:450px;
+	}
+	.post .post_right {
+		width:360px;
+	}
+	.post img {
+		max-width:360px;
+	}
+	.post iframe {
+		max-width:360px;
+		max-height:200px;
+	}
+	
+	.form input[type="text"] {
+		width:343px;
+	}
+	.form textarea {
+		width:353px;
+	}
+	/* end blog */
+	
+	/* start resume */
+	.sidebar_left {
+		width:450px;
+	}
+	.sidebar_right {
+		width:450px;
+		margin-left:0px;
+	}
+	#timeline {
+		width:450px;
+	}
+	#issues li {
+		width:450px;
+	}
+	#issues > li .div_client .div_1_2 {
+		width:440px;
+	}
+	#issues > li .div_client .div_1_2_last {
+		width:440px;
+		border-left:0px solid #ff0000;
+	}
+	#issues > li .div_client .div_1_2 .div_client_padding {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#issues > li .div_client .div_1_2_last .div_client_padding {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#issues>li .div_client .div_client_padding{
+		margin:0 10px;
+	}
+	/* end resume*/
+	
+	/* start portfolio */
+	#portfolio_container img {
+		width:224px;
+	}
+	.box {
+		margin-right:1px;
+	}
+	.box .pp {
+		
+	}
+	/* ends portfolio */
+	
+	/* start contact */
+	.ul_address .span {
+		width:380px;
+	}
+	/* end contact */
+	
+	/* start special */
+	.tablet_hide {
+		display:none;
+	}
+	.tablet_show {
+		display:block;
+	}
+	/* end special */
+}
+/*======================================================================================================================================================
+ * RESPONSIVE TABLET ENDS
+* ===================================================================================================================================================*/
+ 
+ 
+/*======================================================================================================================================================
+ * RESPONSIVE MOBILE START
+* ===================================================================================================================================================*/
+@media only screen and (max-width: 479px) {
+	/* start GRID */
+	.big_container {
+		width:300px;
+		margin:15px auto;
+	}
+	.container_940 {
+		width:280px;
+		margin:0 auto;
+	}
+	.grid_940 {
+		width:280px;
+		float:left;
+	}
+	.grid_300 {
+		width:280px;
+		float:left;
+	}
+	.grid_640 {
+		width:280px;
+		float:left;
+	}
+	.grid_240 {
+		width:280px;
+		float:left;
+	}
+	.grid_700 {
+		width:280px;
+		float:left;
+	}
+	.grid_470 {
+		width:280px;
+		float:left;
+	}
+	/* ends GRID */
+	
+	/* start header */
+	#header:after {
+		width:280px;
+		border-bottom:0px solid;
+	}
+	#header #logo {
+		text-align:center;
+		margin-bottom:30px;
+	}
+	#ul_menu li,#ul_menu li a {
+		width:138px;
+		margin-bottom:4px;
+	}
+	#ul_menu li a:before{
+		width:138px;
+	}
+	#ul_menu li a:after {
+		width:138px;
+	}
+	#ul_menu li a.active:after {
+		background-position:center 18px;
+	}
+	#ul_menu li a.icon_resume.active:after,
+	#ul_menu li a.icon_blog.active:after,
+	#ul_menu li a.icon_portfolio.active:after,
+	#ul_menu li a.icon_contact.active:after {
+		background-color:transparent;
+	}
+	#ul_menu li:nth-child(odd){
+		margin-right:0px;
+	}
+	#ul_menu li a.active {
+		height:144px;
+	}
+	.border_header {
+		height:15px;
+	}
+	.border_header_mb {
+		height:0px;
+	}
+	/* end header */
+	
+	/* start footer */
+	#footer .copyright {
+		text-align:center;
+		margin-bottom:10px;
+	}
+	#footer .social_div {
+		margin:0 auto;
+	}
+	/* end footer */
+	
+	/* start home */
+	.div_210 {
+		width:280px;
+	}
+	.div_730 {
+		width:280px;
+	}
+	#id_home {
+		padding-bottom:40px;
+	}
+	#id_home .home_info {
+		margin-bottom:15px;
+	}
+	#id_home #photo_slider_div {
+		margin:0 auto;
+	}
+	.one_third , .one_third_last {
+		width:280px;
+		margin-right:0px;
+	}
+	.ul_info .span {
+		width:220px;
+	}
+	#id_home #photo_slider_div {
+		background:none;
+		padding-right:0px;
+	}
+	/* end home */
+	
+	/* start blog */
+	#single_post{
+		width:280px;
+	}
+	.post .post_feature img, .post .post_feature iframe {
+		max-width:100%;
+		max-height:110px;
+	}
+	.post .post_right {
+		width:195px;
+	}
+	.post img {
+		max-width:280px;
+	}
+	.post .post_right {
+		max-width:280px;
+	}
+	.post iframe {
+		max-width:280px;
+	}
+	
+	.commentlist .children .the_comment {
+		margin-left:0px;
+	}
+	.commentlist .children .children .the_comment {
+		margin-left:0px;
+	}
+	.form input[type="text"] {
+		width:173px;
+	}
+	.form textarea {
+		width:183px;
+	}
+	/* end blog */
+	
+	/* start resume */
+	.sidebar_left {
+		width:280px;
+	}
+	.sidebar_right {
+		width:280px;
+		margin-left:0px;
+	}
+	.ul_questions .answer_title {
+		padding-left:26px;
+	}
+	.ul_questions .answer_desc {
+		padding-left:40px;
+	}
+	#timeline {
+		width:280px;
+	}
+	#issues li {
+		width:280px;
+	}
+	#issues > li .div_client .div_1_2 {
+		width:270px;
+	}
+	#issues > li .div_client .div_1_2_last {
+		width:270px;
+		border-left:0px solid #ff0000;
+	}
+	#issues > li .div_client .div_1_2 .div_client_padding {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#issues > li .div_client .div_1_2_last .div_client_padding {
+		padding-left:0px;
+		padding-right:0px;
+	}
+	#issues>li .div_client .div_client_padding{
+		margin:0 10px;
+	}
+	/* end resume*/
+	
+	/* start portfolio */
+	#portfolio_container img {
+		width:270px;
+	}
+	.box .pp {
+		margin-left:100px;
+	}	
+	/* ends portfolio */
+	
+	/* start contact */
+	#form_contact textarea.full {
+		width:270px;
+	}
+	/* ends contact */
+	
+	/* start special */
+	.mobile_hide {
+		display:none;
+	}
+	.mobile_show {
+		display:block;
+	}
+	/* end special */
+}
+/*======================================================================================================================================================
+ * RESPONSIVE MOBILE ENDS
+* ===================================================================================================================================================*/
+ 
